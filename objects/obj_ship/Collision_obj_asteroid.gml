@@ -1,5 +1,19 @@
 /// @DnDAction : YoYo Games.Common.Apply_To
 /// @DnDVersion : 1
+/// @DnDHash : 1BFC91F8
+/// @DnDApplyTo : {obj_game}
+with(obj_game) {
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 07D1E339
+	/// @DnDParent : 1BFC91F8
+	/// @DnDArgument : "steps" "60"
+	/// @DnDArgument : "alarm" "1"
+	alarm_set(1, 60);
+}
+
+/// @DnDAction : YoYo Games.Common.Apply_To
+/// @DnDVersion : 1
 /// @DnDHash : 1AC081C7
 /// @DnDApplyTo : {obj_game}
 with(obj_game) {
