@@ -11,6 +11,14 @@ switch(l14A7048E_0)
 	/// @DnDParent : 14A7048E
 	/// @DnDArgument : "const" "rm_start"
 	case rm_start:
+		/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+		/// @DnDVersion : 1
+		/// @DnDHash : 6EB99CEF
+		/// @DnDParent : 74A1B82A
+		/// @DnDArgument : "lives" "3"
+		
+		__dnd_lives = real(3);
+	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 4568D5BA
