@@ -19,6 +19,13 @@ switch(l14A7048E_0)
 		
 		__dnd_lives = real(3);
 	
+		/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+		/// @DnDVersion : 1
+		/// @DnDHash : 444762DA
+		/// @DnDParent : 74A1B82A
+		
+		__dnd_score = real(0);
+	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 4568D5BA
